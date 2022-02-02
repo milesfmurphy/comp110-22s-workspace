@@ -1,6 +1,6 @@
 """One shot."""
 
-__author__ = "730522786"
+__author__: str = "730522786"
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
