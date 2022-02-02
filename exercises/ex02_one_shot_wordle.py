@@ -4,14 +4,14 @@ __author__ = "730522786"
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
 YELLOW_BOX: str = "\U0001F7E8"
-box: str = ""
+
 secret_word: str = "python"
 guess: str = input(f"What is your {len(secret_word)}-letter guess? ")
 
 while len(guess) != len(secret_word):
     guess: str = input(f"That was not {len(secret_word)} letters! Try again: ")
 
-
+box: str = ""
 guess_chr: int = 0
 guessed_chr_present = False
 alt_indices: int = 0
