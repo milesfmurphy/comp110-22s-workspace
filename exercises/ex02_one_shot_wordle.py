@@ -1,4 +1,5 @@
-"""One shot- Don't choke."""
+"""One shot."""
+
 __author__ = "730522786"
 
 WHITE_BOX: str = "\U00002B1C"
